@@ -1,0 +1,63 @@
+body
+{
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1
+{
+    font-size:x-large;
+    font-weight: 325;
+}
+.heading
+{
+    width: 100%;
+    line-height: 2;
+    top: 0;
+    background-color: white;
+    margin-top: 0px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: italic;
+    color: greenyellow;
+}
+.btn-primary
+{
+    float: right;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 70px;
+    animation-name: ani1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani1
+{
+    0%
+    {
+        box-shadow: 1px 1px 80px cyan;
+    }
+    25%
+    {
+        box-shadow: 1px 1px 380px blue;
+    }
+    50%
+    {
+        box-shadow: 1px 1px 380px goldenrod;
+    }
+    75%
+    {
+        box-shadow: 1px 1px 380px green;
+    }
+    100%
+    {
+        box-shadow: 1px 1px 380px blueviolet;
+    }
+}
+p
+{
+    font-size: 25px;
+}
